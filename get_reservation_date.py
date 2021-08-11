@@ -53,7 +53,7 @@ def get_a_batch_reservations(post_data: dict) -> dict:
 
 def get_all_reservation_start_utc(start_utc_str, weeks_num):
     post_data = get_post_data()
-    post_data['ServiceIds'] = ["764642e9-7ef2-4ccc-8a53-ab3a00b6e42b"]
+    post_data['ServiceIds'] = ["bd26d8db-86da-4f96-9efc-e5a4654a4a94"]
     post_data['TimeFilter'] = 'Created'
     post_data['Extent'] = {
         "Reservations": True,
@@ -89,9 +89,9 @@ def get_all_reservation_start_utc(start_utc_str, weeks_num):
         order_list.append(position)
     # 写入文件保存起来
     data_frame = pd.DataFrame({'created_utc': created_utc_list, 'order': order_list})
-    data_frame.to_csv(environments+"_all_reservations_start_utc.csv", index=False, sep=',')
+    data_frame.to_csv(environments+"_all_reservations_start_utc_2018.csv", index=False, sep=',')
 
-    with open(environments+"_all_reservations.json", "w+") as json_file:
+    with open(environments+"_all_reservations_2018.json", "w+") as json_file:
         json_file.write(json.dumps(all_reservations_list, indent=4))
     pass
 
@@ -100,4 +100,4 @@ def get_all_reservation_start_utc(start_utc_str, weeks_num):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    get_all_reservation_start_utc('2019-01-01T00:00:00Z', 52)
+    get_all_reservation_start_utc('2018-01-01T00:00:00Z', 52)
