@@ -1,0 +1,899 @@
+{
+    "Currency": "GBP",
+    "DatesUtc": [
+        "2021-05-02T22:00:00Z",
+        "2021-05-03T22:00:00Z",
+        "2021-05-04T22:00:00Z"
+    ],
+    "BasePrices": [
+        100.0,
+        100.0,
+        100.0
+    ],
+    "CategoryPrices": [
+        {
+            "CategoryId": "6ebb4101-3e4f-46c7-96b2-0b76f112fe57",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "a8a8aeb9-3926-453e-aacf-1b1bf8bfc829",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "e3aa3117-dff0-46b7-b49a-2c0391e70ff9",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "810e43e1-e2cd-44e3-88da-345a0d34ae24",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "0a5da171-3663-4496-a61e-35ecbd78b9b1",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "cee091ea-3dbf-4dc5-87fb-37b8f8b9058d",
+            "Prices": [
+                300.0,
+                300.0,
+                300.0
+            ]
+        },
+        {
+            "CategoryId": "71f647b7-cd99-404a-9c32-3b0821da4b8c",
+            "Prices": [
+                10.0,
+                10.0,
+                10.0
+            ]
+        },
+        {
+            "CategoryId": "c370e7a1-011a-4479-832f-42ef34f1dc23",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "2d0fdef4-d576-4622-984c-460da7573e74",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "bc4ce1ed-afa1-420b-9b4c-4bcdfd085a57",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "90f35f23-457d-4520-ae16-5504c65d30ad",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "a0a7a5c5-c4ef-494a-8b34-6cca97629076",
+            "Prices": [
+                25.0,
+                25.0,
+                25.0
+            ]
+        },
+        {
+            "CategoryId": "733a06d5-2bfd-443d-a195-729190ef84cf",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "4937e60e-32b0-4130-9c02-8845b5bb5098",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "e12e0b0b-3465-44fb-8169-88aa4b684393",
+            "Prices": [
+                450.0,
+                450.0,
+                450.0
+            ]
+        },
+        {
+            "CategoryId": "25a34025-ef0b-4e32-8367-94b1637fcecb",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "34c29e73-c8db-4e93-b51b-981e42655e03",
+            "Prices": [
+                104.2,
+                104.2,
+                104.2
+            ]
+        },
+        {
+            "CategoryId": "25cd0160-6f00-41bf-9338-9e7d7eab2622",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "762a94c9-51b2-453d-8d2e-9f1f965a75a9",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f59a4110-eb39-45c9-a992-a1393b865fa3",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "632609eb-420c-474d-9d99-a2c61f67ac7e",
+            "Prices": [
+                94.78,
+                94.78,
+                94.78
+            ]
+        },
+        {
+            "CategoryId": "2bfe592a-298a-4952-87e3-a719e485a287",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "af0b9645-716d-4ae0-9f69-aa4b00a72226",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "b4b2c004-6c88-491d-8871-aa4f00f310c3",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "93611185-b72b-4e01-80f9-aa6900bd2d0b",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "48d9cef7-9396-47de-800f-aa6900f05a2e",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f206fb92-339b-49e7-b3fc-aa69012d4ef7",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "46bc1498-38cf-4d03-b144-aa69012f5d50",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "bc67a189-3925-4ba8-b027-aa96016fadc1",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "374eb0a8-47fa-4641-8d0b-aac000e49b6c",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "89a036bd-abf8-490e-ae9c-aad001685498",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "16ed5a27-423f-4ea7-82d1-aad00168cc13",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "cc84dadd-ec87-40fe-aa68-aad400edbef6",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "a6474937-35ba-42d8-b7b7-aae7018b64d4",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f5071ac6-f014-4d0c-900e-aae8008071ea",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "759a7d63-c550-4f87-8678-aaf60132f832",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "379a3816-a586-4cb3-a69e-aaff00691c27",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "02598747-43f6-4d62-979d-ab030069a3b7",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "8ed359f8-4991-421d-87d3-ab0a00e6eb4f",
+            "Prices": [
+                85.0,
+                85.0,
+                85.0
+            ]
+        },
+        {
+            "CategoryId": "230c0fe2-849b-4cee-894d-ab0a00e86675",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "73de5c06-cf42-4a40-a908-ab1300d87b92",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "52d25b19-4ffc-456d-80e0-ab1a009dac56",
+            "Prices": [
+                185.0,
+                185.0,
+                185.0
+            ]
+        },
+        {
+            "CategoryId": "72b4c5c7-c89c-4631-be60-ab1b00f0d9b9",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "c5f14b90-8eaf-4a9e-b8d8-ab510100c63b",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "a83fb271-9eb0-434c-a6d0-ab5101010b40",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "d71d5f99-38f1-4f83-b749-ab5200cfabef",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "bb4265b3-1379-4ec5-97f7-ab59010d071f",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "16fa1ac9-50ee-4972-ac2a-ab5b017412d3",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "cab8d9dc-1ff3-4649-8849-ab5b0174a000",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "6789afeb-6873-48fd-a20c-ab6000d3f8fd",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "e71f199f-c10e-4f73-827c-ab6700822251",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "733ac5f9-20c8-403c-90af-ab68010f3a89",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "3753af4c-561b-47e0-a021-ab6f00b4feae",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "444b29a9-ff27-44c1-8a6a-ab7c009b06a8",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "6aae851d-3f76-479c-81c1-ab91011f324c",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "74e28790-16b5-4c4c-9507-ab91011f5aac",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "ced08f86-34fa-4bb4-8241-ab9101207f8d",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "222b08ac-0e13-4797-82d1-ab980098cba2",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "41326d4c-e52b-40ee-8d88-aba50090a504",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "c2d9c081-e57e-49cf-ab3a-abab00adce06",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f29d34d8-303a-4bcf-a570-abbb00bde0ec",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "855b87e4-456a-46ef-8f5e-abc60082cd96",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "169847f7-7c1b-483e-b656-abc600a7a295",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "57a0a89f-18f8-4753-9882-abc600d9fff0",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "0197aa70-b0d4-4fac-9da3-abc700edcf1a",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "999ad9d0-b1be-4fa8-9e12-abce00bea7ff",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "2e3a8414-10d5-4bbf-a593-abcf00ec351f",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "11ae5325-8b07-4606-8702-abd100d82a92",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "8a171649-4ec8-4f8e-bf70-abd401274194",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "84dc3340-83fa-4725-9552-abdb00d83b36",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "3d3f27cc-1cc9-494f-814b-abe400c2811a",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "95b79cea-f861-4ab0-a4d4-abe50139ae7c",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f02ffc0b-0ea4-4aaa-8d2b-abf200a073ab",
+            "Prices": [
+                110.0,
+                110.0,
+                110.0
+            ]
+        },
+        {
+            "CategoryId": "962c579c-f14d-4d36-9d9e-abf200e0d75f",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "66bac120-4ba6-459d-aa00-abfb00b12488",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f7ebb3e3-74bf-4fa5-9299-abff0104b02e",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "feea2d49-76f6-4559-bffe-ac0500b2e777",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "811fb6b1-b004-47b2-8f1e-ac5200e30a3a",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "9a92c2ac-751d-4c41-8af5-ac550007dcd3",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "304cb73b-6db8-4317-9f1d-ac6000e5aa77",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "25967da6-9108-423e-9c35-ac7500918fb9",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "d9b3d12f-cdce-46a2-980b-ac7500d5775e",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "0820dfdb-5b42-4924-a5e6-ac83005062fd",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "4d9d3fee-e5b6-45b5-9417-ac830050eea8",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "7f65468e-9f92-40d2-91f6-acaf01605877",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "588dd78e-0f5f-4e38-ab3e-acbf00d63785",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "86b135ef-d31b-40bf-af5c-acc50143f28f",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "9a54494c-835e-4858-ad71-ad3300c7bc02",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "1d4054dc-8f92-40cd-82d6-ad4b00885482",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "3ff07f26-f2cf-42c4-b2bc-ad4b0088a6c5",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "ad4891ce-1621-482f-b6b5-ad6b017c5a7d",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "95682e2d-df1d-4bc4-82ea-ad7a011bb4fa",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "c3ac41a9-ef31-411a-a305-ad7a011c0d30",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "98d3e5e2-29ae-4cc8-996d-b96c6f16d6dd",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "f9949232-6703-4577-95f7-c8be8b882beb",
+            "Prices": [
+                93.78,
+                93.78,
+                93.78
+            ]
+        },
+        {
+            "CategoryId": "ae1ba1b6-96db-425a-b0ba-cb2e81614bb5",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "82d601c6-0531-4be4-9945-e0e9e865bd0b",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "e785b1c6-5ffa-490c-b146-ebd8a6e19fa9",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "c71d3e9b-03bd-425b-9dde-f63018e94a4e",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        {
+            "CategoryId": "773d5e42-de1e-43a0-9ce6-f940faf2303f",
+            "Prices": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        }
+    ],
+    "CategoryAdjustments": [
+        {
+            "CategoryId": "773d5e42-de1e-43a0-9ce6-f940faf2303f",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "a0a7a5c5-c4ef-494a-8b34-6cca97629076",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": -0.75
+        },
+        {
+            "CategoryId": "cee091ea-3dbf-4dc5-87fb-37b8f8b9058d",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": 2.0
+        },
+        {
+            "CategoryId": "25cd0160-6f00-41bf-9338-9e7d7eab2622",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "f9949232-6703-4577-95f7-c8be8b882beb",
+            "ParentCategoryId": "34c29e73-c8db-4e93-b51b-981e42655e03",
+            "AbsoluteValue": 0.0,
+            "RelativeValue": -0.1
+        },
+        {
+            "CategoryId": "632609eb-420c-474d-9d99-a2c61f67ac7e",
+            "ParentCategoryId": "f9949232-6703-4577-95f7-c8be8b882beb",
+            "AbsoluteValue": 1.0,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "810e43e1-e2cd-44e3-88da-345a0d34ae24",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "f02ffc0b-0ea4-4aaa-8d2b-abf200a073ab",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": 0.1
+        },
+        {
+            "CategoryId": "52d25b19-4ffc-456d-80e0-ab1a009dac56",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 85.0,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "8ed359f8-4991-421d-87d3-ab0a00e6eb4f",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": -0.15
+        },
+        {
+            "CategoryId": "71f647b7-cd99-404a-9c32-3b0821da4b8c",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 0.0,
+            "RelativeValue": -0.9
+        },
+        {
+            "CategoryId": "34c29e73-c8db-4e93-b51b-981e42655e03",
+            "ParentCategoryId": null,
+            "AbsoluteValue": 4.2,
+            "RelativeValue": 0.0
+        },
+        {
+            "CategoryId": "e12e0b0b-3465-44fb-8169-88aa4b684393",
+            "ParentCategoryId": "e785b1c6-5ffa-490c-b146-ebd8a6e19fa9",
+            "AbsoluteValue": 150.0,
+            "RelativeValue": 2.0
+        }
+    ],
+    "RelativeAdjustment": 0.0,
+    "AbsoluteAdjustment": 0.0,
+    "EmptyUnitAdjustment": 0.0,
+    "ExtraUnitAdjustment": 0.0
+}
