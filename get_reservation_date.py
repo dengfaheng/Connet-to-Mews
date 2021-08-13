@@ -89,9 +89,9 @@ def get_all_reservation_start_utc(start_utc_str, weeks_num):
         order_list.append(position)
     # 写入文件保存起来
     data_frame = pd.DataFrame({'created_utc': created_utc_list, 'order': order_list})
-    data_frame.to_csv(environments+"_all_reservations_start_utc_2018.csv", index=False, sep=',')
+    data_frame.to_csv(environments+"_all_reservations_start_utc_2017.csv", index=False, sep=',')
 
-    with open(environments+"_all_reservations_2018.json", "w+") as json_file:
+    with open(environments+"_all_reservations_2017.json", "w+") as json_file:
         json_file.write(json.dumps(all_reservations_list, indent=4))
     pass
 
@@ -100,4 +100,4 @@ def get_all_reservation_start_utc(start_utc_str, weeks_num):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    get_all_reservation_start_utc('2018-01-01T00:00:00Z', 52)
+    get_all_reservation_start_utc('2017-01-01T00:00:00Z', 52)

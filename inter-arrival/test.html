@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>customer arrival</title>
+  <link rel="stylesheet" href="./layui/css/layui.css">
+</head>
+
+<body>
+ 
+<!-- 你的 HTML 代码 -->
+<form class="layui-form">
+    <div class="layui-form-item">
+        <label class="layui-form-label">select a year</label>
+        <div class="layui-input-block">
+          <select lay-filter="brickType" onchange="selectChange()" id="year" name="">
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020" selected>2020</option>
+          </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div id="dateRange" class="layui-inline">
+          <label class="layui-form-label">date range</label>
+          <div class="layui-inline" id="test6">
+            <div class="layui-input-inline">
+              <input type="text" autocomplete="off" id="testStartDate" class="layui-input" placeholder="start date">
+            </div>
+            <div class="layui-form-mid">-</div>
+            <div class="layui-input-inline">
+              <input type="text" autocomplete="off" id="testEndDate" class="layui-input" placeholder="end date">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">time interval</label>
+        <div class="layui-input-block">
+          <input type="number" id="timeInterval" name="title" required placeholder="enter the time interval" autocomplete="off" class="layui-input">
+        </div>
+        <label class="layui-form-label" >time unit</label>
+        <div class="layui-input-block" >
+          <select id="timeUnit" name="">
+            <option value="3600" selected>hour</option>
+            <option value="60">minute</option>
+            <option value="1">second</option>
+          </select>
+        </div>
+    </div>
+
+</form>
+
+<button type="button" class="layui-btn" onclick="show()">plot</button>
+
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="height: 800px"></div>
+
+
+
+
+<script src="./layui/layui.js"></script>
+<script src="./layui/jquery-3.5.1.min.js"></script>
+<script src="./layui/papaparse.min.js"></script>
+<script src="./layui/echarts-all.js"></script>
+
+<script>
+    layui.use('laydate', function(){
+        const laydate = layui.laydate;
+        const options = $("#year option:selected");  //获取选中的项
+        //日期范围
+        laydate.render({
+            elem: '#test6'
+            ,range: ['#testStartDate', '#testEndDate']
+            ,min: options.val()+'-1-1'
+            ,max: options.val()+'-12-31'
+        });
+    });
+
+    layui.use(['form'], function() {
+        const form = layui.form;
+        form.on('select(brickType)', function(data){
+            //alert(data.value);
+            console.log(data.value);
+
+            $("#test6").remove();
+            $("#dateRange").html("<label class=\"layui-form-label\">date range</label>\n" +
+                "          <div class=\"layui-inline\" id=\"test6\">\n" +
+                "            <div class=\"layui-input-inline\">\n" +
+                "              <input type=\"text\" autocomplete=\"off\" id=\"testStartDate\" class=\"layui-input\" placeholder=\"start date\">\n" +
+                "            </div>\n" +
+                "            <div class=\"layui-form-mid\">-</div>\n" +
+                "            <div class=\"layui-input-inline\">\n" +
+                "              <input type=\"text\" autocomplete=\"off\" id=\"testEndDate\" class=\"layui-input\" placeholder=\"end date\">\n" +
+                "            </div>\n" +
+                "          </div>")
+            layui.use('laydate', function(){
+                const laydate = layui.laydate;
+                //日期范围
+                laydate.render({
+                    elem: '#test6'
+                    ,range: ['#testStartDate', '#testEndDate']
+                    ,min: data.value+'-1-1'
+                    ,max: data.value+'-12-31'
+                });
+            });
+        });
+    });
+
+</script>
+
+<script type="text/javascript">
+
+    function show(){
+        const options = $("#year option:selected");  //获取选中的项
+
+        Papa.parse('Gross_Pricing_all_reservations_start_utc_'+options.val()+'.csv', {
+            download: true,
+            complete: function(results) {
+                const startDateStr = document.getElementById('testStartDate').value + ' 00:00:00';
+                const endDateStr = document.getElementById('testEndDate').value + ' 00:00:00';
+                console.log(startDateStr);
+                console.log(endDateStr);
+
+                //获取起点时间戳
+                const options2 = $("#year option:selected");  //获取选中的项
+                const startDate = new Date(startDateStr);
+                const yearStart = new Date(options2.val()+'-01-01 00:00:00')
+                const startSec = (startDate.getTime() - yearStart.getTime()) / 1000;
+                const endDate = new Date(endDateStr);
+                const endSec = (endDate.getTime() - yearStart.getTime()) / 1000;
+
+                //获取interval
+                const timeUnitVal = $("#timeUnit option:selected").val();
+                const interSec = document.getElementById('timeInterval').value * parseFloat(timeUnitVal);
+
+                //获取区间个数
+                const intervalNum = Math.floor((endSec - startSec) / interSec);
+                console.info('intervalNum '+intervalNum);
+                console.info('startSec '+startSec);
+                console.info('endSec '+endSec);
+
+                //统计区间值
+                let countArr = new Array(intervalNum).fill(0);
+
+                for(let i = 1; i < results.data.length; i++){
+                    const arrDateSec = parseFloat(results.data[i][1]);
+                    if(arrDateSec > endSec){
+                        break;
+                    }
+                    //判断results.data[i]在哪个区间
+                    for(let j = 0; j < intervalNum; j++){
+                        const interStart = startSec + interSec * j;
+                        const interEnd   = interStart + interSec;
+                        //console.info(j+', '+interStart+', '+interEnd)
+                        if( (interStart <= arrDateSec) && (arrDateSec < interEnd) ){
+                            countArr[j]++;
+                            break;
+                        }
+                    }
+                }
+
+                let interX = [];
+                for(let j = 0; j < intervalNum; j++){
+                    interX.push((j+1).toString());
+                }
+
+                // 基于准备好的dom，初始化echarts图表
+                const myChart = echarts.init(document.getElementById('main'));
+
+                const option = {
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data: ['arrival count']
+                    },
+                    xAxis: [{
+                        type: 'category',
+                        data: interX
+                    }],
+                    yAxis: [{
+                        type: 'value'
+                    }],
+                    series: [{
+                        "name": "arrival count",
+                        "type": "bar",
+                        "data": countArr
+                    }]
+                };
+
+                // 为echarts对象加载数据
+                myChart.setOption(option);
+
+            }
+        });
+    }
+
+
+</script>
+
+</body>
+</html>
