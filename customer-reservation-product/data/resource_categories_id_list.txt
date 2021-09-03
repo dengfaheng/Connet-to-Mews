@@ -1,0 +1,42 @@
+e785b1c6-5ffa-490c-b146-ebd8a6e19fa9
+Suite
+Double Room
+
+c71d3e9b-03bd-425b-9dde-f63018e94a4e
+Room
+King Double Room
+
+810e43e1-e2cd-44e3-88da-345a0d34ae24
+Room
+Standard Double
+
+0820dfdb-5b42-4924-a5e6-ac83005062fd
+Room
+OPT-SINGLE
+
+90f35f23-457d-4520-ae16-5504c65d30ad
+Room
+Single room
+
+4d9d3fee-e5b6-45b5-9417-ac830050eea8
+Room
+OPT-DOUBLE
+
+aa3fb295-aa11-40a2-b6be-ace6004e54e4
+Room
+Hotel 3 persoons
+
+6ebb4101-3e4f-46c7-96b2-0b76f112fe57
+Villa
+Villa 2
+
+
+
+733a06d5-2bfd-443d-a195-729190ef84cf
+Room
+Standard Single
+
+aa3fb295-aa11-40a2-b6be-ace6004e54e4
+Room
+Hotel 3 persoons
+

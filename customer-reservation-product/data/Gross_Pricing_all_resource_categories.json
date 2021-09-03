@@ -1,0 +1,804 @@
+[
+    {
+        "Id": "e785b1c6-5ffa-490c-b146-ebd8a6e19fa9",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Suite",
+        "Names": {
+            "en-GB": "Double Room(E)",
+            "es-ES": "Double room",
+            "en-US": "Double room"
+        },
+        "ShortNames": {
+            "en-GB": "DRE",
+            "en-US": "DBL"
+        },
+        "Descriptions": {
+            "en-US": "This is doubl eroom"
+        },
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 3
+    },
+    {
+        "Id": "c71d3e9b-03bd-425b-9dde-f63018e94a4e",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "King Double Room",
+            "es-ES": "King Double Room",
+            "et-EE": "King Double Room",
+            "en-US": "King Double Room FR"
+        },
+        "ShortNames": {
+            "en-GB": "KDR",
+            "nl-NL": "KD",
+            "en-US": "KD"
+        },
+        "Descriptions": {},
+        "Ordering": 9,
+        "Capacity": 6,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "810e43e1-e2cd-44e3-88da-345a0d34ae24",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "de-DE": "Doppelzimmer",
+            "en-GB": "Standard Double",
+            "es-ES": "Standard Double",
+            "fr-FR": "room deux"
+        },
+        "ShortNames": {
+            "de-DE": "DZ",
+            "en-GB": "SSD"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "0820dfdb-5b42-4924-a5e6-ac83005062fd",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "OPT-SINGLE"
+        },
+        "ShortNames": {
+            "en-US": "OPT-SINGLE"
+        },
+        "Descriptions": {
+            "en-US": "OPT SINGLE ROOM"
+        },
+        "Ordering": 0,
+        "Capacity": 4,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "90f35f23-457d-4520-ae16-5504c65d30ad",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "Single room"
+        },
+        "ShortNames": {
+            "en-US": "SGL"
+        },
+        "Descriptions": {
+            "en-US": "This i s HOO single room"
+        },
+        "Ordering": 7,
+        "Capacity": 2,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "4d9d3fee-e5b6-45b5-9417-ac830050eea8",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "OPT-DOUBLE"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 8,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "aa3fb295-aa11-40a2-b6be-ace6004e54e4",
+        "ServiceId": "ed51c834-b4c7-4d0f-a9e3-ace1006cc4d2",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Hotel 3 persoons"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 3,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "6ebb4101-3e4f-46c7-96b2-0b76f112fe57",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Villa",
+        "Names": {
+            "en-GB": "Villa 2"
+        },
+        "ShortNames": {
+            "en-GB": "Villa 2"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "733a06d5-2bfd-443d-a195-729190ef84cf",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Standard Single",
+            "en-US": "Standard Single"
+        },
+        "ShortNames": {
+            "en-GB": "SSS",
+            "en-US": "Standard Single"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 1
+    },
+    {
+        "Id": "25967da6-9108-423e-9c35-ac7500918fb9",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "MM - Doubles"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "02598747-43f6-4d62-979d-ab030069a3b7",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "DelayNoMore"
+        },
+        "ShortNames": {
+            "en-US": "DNM"
+        },
+        "Descriptions": {
+            "en-US": "Double bed"
+        },
+        "Ordering": 10,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "34c29e73-c8db-4e93-b51b-981e42655e03",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "100-Bed Dorm Room",
+            "en-US": "4-Bed Dorm Room !!!"
+        },
+        "ShortNames": {
+            "en-US": "4Z"
+        },
+        "Descriptions": {
+            "en-US": "Test description"
+        },
+        "Ordering": 0,
+        "Capacity": 4,
+        "ExtraCapacity": 5
+    },
+    {
+        "Id": "25cd0160-6f00-41bf-9338-9e7d7eab2622",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Suite",
+        "Names": {
+            "en-US": "Junior Suite"
+        },
+        "ShortNames": {
+            "en-US": "JS"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 98
+    },
+    {
+        "Id": "cee091ea-3dbf-4dc5-87fb-37b8f8b9058d",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Apartment",
+        "Names": {
+            "en-US": "Apartment 01"
+        },
+        "ShortNames": {
+            "en-US": "Ap01"
+        },
+        "Descriptions": {
+            "en-US": "Test Apartemnt 01"
+        },
+        "Ordering": 8,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "0a5da171-3663-4496-a61e-35ecbd78b9b1",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "fr-FR": "Suite TESTING",
+            "en-US": "Suite TESTING"
+        },
+        "ShortNames": {
+            "en-US": "Narendra Ji's"
+        },
+        "Descriptions": {},
+        "Ordering": 10,
+        "Capacity": 3,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "4d587083-557a-4bec-89ff-ad9600f4d205",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Ivan Test"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 3,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "f02ffc0b-0ea4-4aaa-8d2b-abf200a073ab",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-US": "Ariane bed"
+        },
+        "ShortNames": {
+            "en-US": "AB"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "962c579c-f14d-4d36-9d9e-abf200e0d75f",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Dorm",
+        "Names": {
+            "en-GB": "10-Bed Dorm",
+            "es-ES": "10-bed-spanish",
+            "fr-FR": "10 lits dortoire",
+            "en-US": "10-Bed Dorm"
+        },
+        "ShortNames": {
+            "en-GB": "10BD",
+            "es-ES": "10Db-es",
+            "fr-FR": "10Lits",
+            "en-US": "10BD"
+        },
+        "Descriptions": {
+            "en-GB": "This is a description of the 10-Bed Dorm :)",
+            "es-ES": "description in spanish",
+            "fr-FR": "Ceci est une description de la chambre 10-Bed dorm",
+            "en-US": "Dorm with max capacity of 10 beds."
+        },
+        "Ordering": 0,
+        "Capacity": 10,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "98d3e5e2-29ae-4cc8-996d-b96c6f16d6dd",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "100SharedTipiBed"
+        },
+        "ShortNames": {
+            "en-GB": "TipiBEDType"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "230c0fe2-849b-4cee-894d-ab0a00e86675",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "111 Rias Hotel Suites"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 5,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "075909dd-85b7-4af7-813b-ace6004e01c1",
+        "ServiceId": "ed51c834-b4c7-4d0f-a9e3-ace1006cc4d2",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Hotel 1 persoons"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "773d5e42-de1e-43a0-9ce6-f940faf2303f",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "Queen Double Room"
+        },
+        "ShortNames": {
+            "en-US": "QD"
+        },
+        "Descriptions": {},
+        "Ordering": 5,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "ad4891ce-1621-482f-b6b5-ad6b017c5a7d",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "i am test space category hear me roar"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "6fa40337-58fb-4263-b2b2-ace6004e3031",
+        "ServiceId": "ed51c834-b4c7-4d0f-a9e3-ace1006cc4d2",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Hotel 2 persoons"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "71f647b7-cd99-404a-9c32-3b0821da4b8c",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "Small meeting room"
+        },
+        "ShortNames": {
+            "en-US": "MTG1"
+        },
+        "Descriptions": {
+            "en-US": "Meeting room"
+        },
+        "Ordering": 0,
+        "Capacity": 30,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "8ed359f8-4991-421d-87d3-ab0a00e6eb4f",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "111 Rias Hotel - STN",
+            "en-US": "111 Rias Hotel - STN"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 10,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "588dd78e-0f5f-4e38-ab3e-acbf00d63785",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Mr Lewis test"
+        },
+        "ShortNames": {
+            "en-GB": "Mr Lewis test"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "753749bb-81dc-4b47-9cd8-ad4b009c47d1",
+        "ServiceId": "58d5a904-3374-471d-9022-ad4b008b78f5",
+        "IsActive": true,
+        "Type": "Dorm",
+        "Names": {
+            "en-GB": "3-bed dorm"
+        },
+        "ShortNames": {
+            "en-GB": "3-bed dorm"
+        },
+        "Descriptions": {
+            "en-GB": "3-bed dorm"
+        },
+        "Ordering": 3,
+        "Capacity": 3,
+        "ExtraCapacity": 1
+    },
+    {
+        "Id": "8a171649-4ec8-4f8e-bf70-abd401274194",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Apartment",
+        "Names": {
+            "en-US": "Operto space category"
+        },
+        "ShortNames": {
+            "en-US": "Operto Apartment"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 5,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "bc67a189-3925-4ba8-b027-aa96016fadc1",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Apartment",
+        "Names": {
+            "en-US": "One Bedroom"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "d9b3d12f-cdce-46a2-980b-ac7500d5775e",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "MM - Sup\u00e9rieur"
+        },
+        "ShortNames": {
+            "en-US": "MMTC2"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 2
+    },
+    {
+        "Id": "84dc3340-83fa-4725-9552-abdb00d83b36",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "KING"
+        },
+        "ShortNames": {
+            "en-US": "KING"
+        },
+        "Descriptions": {
+            "en-US": "You'll feel at home with our comfortable, stylish Standard King Guest Room. Our accommodations come complete with our Bed, chair with pull-out ottoman and delight in Le Grand Bain bath amenities to keep you at your best while on the road."
+        },
+        "Ordering": 10,
+        "Capacity": 2,
+        "ExtraCapacity": 1
+    },
+    {
+        "Id": "0d10058a-aa7f-43d4-bb00-acd901637b96",
+        "ServiceId": "545770ce-623c-489f-b583-acd901633f9d",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Parking Lot A"
+        },
+        "ShortNames": {
+            "en-GB": "Parking Lot A"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "1d4054dc-8f92-40cd-82d6-ad4b00885482",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Dorm",
+        "Names": {
+            "en-GB": "10-bed dorm",
+            "en-US": "10-bed dorm"
+        },
+        "ShortNames": {
+            "en-GB": "10-bed dorm",
+            "en-US": "10-bed dorm"
+        },
+        "Descriptions": {
+            "en-GB": "This is 10-bed dorm"
+        },
+        "Ordering": 1,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "44bd8ad0-e70b-4bd9-8445-ad7200d7c349",
+        "ServiceId": "ec9d261c-1ef1-4a6e-8565-ad7200d77411",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "First Room"
+        },
+        "ShortNames": {
+            "en-GB": "First Room"
+        },
+        "Descriptions": {
+            "en-GB": "First Room"
+        },
+        "Ordering": 0,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "46bc1498-38cf-4d03-b144-aa69012f5d50",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "SEPI-ROOM-TYPE-A",
+            "en-US": "Standard Suite"
+        },
+        "ShortNames": {
+            "en-GB": "SEPI-ROOM-TYPE-A",
+            "en-US": "Standard Suite2"
+        },
+        "Descriptions": {
+            "en-GB": "SEPI-ROOM-TYPE-A",
+            "en-US": "This is the Mews Room description"
+        },
+        "Ordering": 0,
+        "Capacity": 100,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "b1cfaf0b-6ecb-46f5-90f8-ad4b00a11259",
+        "ServiceId": "58d5a904-3374-471d-9022-ad4b008b78f5",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "bed in 3-bed dorm"
+        },
+        "ShortNames": {
+            "en-GB": "bed"
+        },
+        "Descriptions": {},
+        "Ordering": 1,
+        "Capacity": 3,
+        "ExtraCapacity": 1
+    },
+    {
+        "Id": "3ff07f26-f2cf-42c4-b2bc-ad4b0088a6c5",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "Bed in 10-bed dorm"
+        },
+        "ShortNames": {
+            "en-GB": "bed"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 10,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "b4b2c004-6c88-491d-8871-aa4f00f310c3",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Fancy Pants Rooms",
+            "it-IT": "prova",
+            "en-US": "test"
+        },
+        "ShortNames": {
+            "en-GB": "Fancy"
+        },
+        "Descriptions": {
+            "en-GB": "Very fancy rooms!"
+        },
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "4937e60e-32b0-4130-9c02-8845b5bb5098",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Apartment",
+        "Names": {
+            "en-GB": "Test Apartment (Edited)"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 5
+    },
+    {
+        "Id": "169847f7-7c1b-483e-b656-abc600a7a295",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Suite",
+        "Names": {
+            "en-US": "Doubleroom FID"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "43b09a05-951f-4986-baa3-acd90163998f",
+        "ServiceId": "545770ce-623c-489f-b583-acd901633f9d",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Parking Lot B"
+        },
+        "ShortNames": {
+            "en-GB": "Parking Lot B"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 3,
+        "ExtraCapacity": 1
+    },
+    {
+        "Id": "f206fb92-339b-49e7-b3fc-aa69012d4ef7",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "SEPI-BED-TYPE-A"
+        },
+        "ShortNames": {
+            "en-GB": "SEPI-BED-TYPE-A"
+        },
+        "Descriptions": {
+            "en-GB": "SEPI-BED-TYPE-A"
+        },
+        "Ordering": 0,
+        "Capacity": 100,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "7f65468e-9f92-40d2-91f6-acaf01605877",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "Operto-test1",
+            "es-ES": "Operto-spanish"
+        },
+        "ShortNames": {
+            "en-GB": "OP test1"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 3,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "82d601c6-0531-4be4-9945-e0e9e865bd0b",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Villa",
+        "Names": {
+            "en-GB": "Villa B test"
+        },
+        "ShortNames": {
+            "en-GB": "Villa B test"
+        },
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "73de5c06-cf42-4a40-a908-ab1300d87b92",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-US": "Spatie Room"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "c3ac41a9-ef31-411a-a305-ad7a011c0d30",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Bed",
+        "Names": {
+            "en-GB": "Test Component Bed"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 2,
+        "ExtraCapacity": 0
+    },
+    {
+        "Id": "95682e2d-df1d-4bc4-82ea-ad7a011bb4fa",
+        "ServiceId": "bd26d8db-86da-4f96-9efc-e5a4654a4a94",
+        "IsActive": true,
+        "Type": "Room",
+        "Names": {
+            "en-GB": "Test Component Room"
+        },
+        "ShortNames": {},
+        "Descriptions": {},
+        "Ordering": 0,
+        "Capacity": 1,
+        "ExtraCapacity": 0
+    }
+]
